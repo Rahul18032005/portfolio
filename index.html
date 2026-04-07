@@ -1,0 +1,497 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rahul T | Computer Science Engineer | Software Developer</title>
+  <meta name="description" content="Portfolio of Rahul T Ã¢â‚¬â€ Final-year Computer Science Engineering student specializing in Frontend Development, Application Development, and Software Engineering. Available for internships and placements." />
+  <meta name="keywords" content="software developer, frontend developer, React, JavaScript, portfolio, internship, placement, computer science engineer" />
+  <meta property="og:title" content="Rahul T | Software Developer Portfolio" />
+  <meta property="og:description" content="Final-year CS student building scalable web and application solutions." />
+  <meta property="og:type" content="website" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js" defer></script>
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+
+  <!-- Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â NAVIGATION Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-content">
+      <a href="#hero" class="logo">RT<span>.</span></a>
+      <nav class="nav-links" id="nav-links">
+        <a href="#hero" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+      <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation menu">
+        <i data-lucide="menu" id="menu-icon"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Nav Overlay -->
+  <div class="mobile-nav" id="mobile-nav">
+    <a href="#hero" class="mobile-link">Home</a>
+    <a href="#about" class="mobile-link">About</a>
+    <a href="#education" class="mobile-link">Education</a>
+    <a href="#skills" class="mobile-link">Skills</a>
+    <a href="#projects" class="mobile-link">Projects</a>
+    <a href="#contact" class="mobile-link">Contact</a>
+  </div>
+
+  <!-- Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â HERO Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â -->
+  <section id="hero" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-content reveal">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          Open to Opportunities
+        </div>
+        <h1 class="hero-name">Rahul<br>T</h1>
+        <h2 class="hero-role">
+          <span class="typed-text" id="typed-text"></span><span class="cursor">|</span>
+        </h2>
+        <p class="hero-intro">
+          Final-year Computer Science Engineering student passionate about crafting efficient, 
+          user-friendly, and impactful software solutions. From frontend interfaces to full-stack 
+          applications Ã¢â‚¬â€ I build digital solutions that drive innovation.
+        </p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary" id="hero-view-projects">
+            View Projects <i data-lucide="briefcase"></i>
+          </a>
+          <a href="#contact" class="btn btn-secondary" id="hero-contact-me">
+            Contact Me <i data-lucide="mail"></i>
+          </a>
+          <a href="/resume.pdf" class="btn btn-outline" id="hero-download-resume" target="_blank">
+            Download Resume <i data-lucide="download"></i>
+          </a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn profile" id="hero-linkedin">
+            <i data-lucide="linkedin"></i>
+          </a>
+          <a href="https://github.com" target="_blank" aria-label="GitHub profile" id="hero-github">
+            <i data-lucide="github"></i>
+          </a>
+          <a href="mailto:alex.johnson@email.com" aria-label="Send email" id="hero-email">
+            <i data-lucide="mail"></i>
+          </a>
+        </div>
+      </div>
+      <div class="hero-image reveal-right">
+        <div class="image-ring"></div>
+        <div class="image-wrapper">
+          <img src="/avatar.webp" alt="Rahul T - Software Developer" id="profile-img" />
+        </div>
+        <div class="floating-badge badge-1">
+          <i data-lucide="code-2"></i> React Developer
+        </div>
+        <div class="floating-badge badge-2">
+          <i data-lucide="zap"></i> Vite & Node.js
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <a href="#about" aria-label="Scroll to About section">
+        <i data-lucide="chevrons-down"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• ABOUT â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+  <section id="about" class="section about">
+    <div class="container">
+      <h2 class="section-title reveal">About Me</h2>
+      <div class="about-grid">
+
+        <!-- LEFT: Bio + Details + Stats -->
+        <div class="about-text reveal">
+          <p class="about-intro">
+            I'm <strong>Rahul T</strong>, a final-year <strong>Computer Science Engineering</strong> student
+            passionate about problem-solving, innovation, and building efficient digital solutions. I thrive
+            at the intersection of clean code and intuitive design.
+          </p>
+          <p>
+            I specialize in full-stack web development, crafting seamless experiences from responsive UIs
+            to robust backend systems. I am committed to continuous learning, adapting to new technologies,
+            and contributing to organizational success through technical excellence and innovation.
+          </p>
+
+          <div class="about-details">
+            <div class="detail-item">
+              <i data-lucide="map-pin"></i>
+              <span>Tenkasi, Tamil Nadu</span>
+            </div>
+            <div class="detail-item">
+              <i data-lucide="briefcase"></i>
+              <span>Open to Internship &amp; Full-time</span>
+            </div>
+            <div class="detail-item">
+              <i data-lucide="graduation-cap"></i>
+              <span>B.E. CSE, Einstein College of Engineering</span>
+            </div>
+            <div class="detail-item">
+              <i data-lucide="globe"></i>
+              <span>Remote / On-site</span>
+            </div>
+          </div>
+
+          <div class="stats-row">
+            <div class="stat-card">
+              <span class="stat-num">3+</span>
+              <span class="stat-label">Projects Built</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num">5+</span>
+              <span class="stat-label">Technologies</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num">2026</span>
+              <span class="stat-label">Graduating</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT: Focus Areas -->
+        <div class="about-interests reveal-right">
+          <h3>Core Interests &amp; Focus Areas</h3>
+          <div class="interest-grid">
+            <div class="interest-item">
+              <i data-lucide="layout-dashboard"></i>
+              <div>
+                <strong>Frontend Dev</strong>
+                <small>React, HTML/CSS, JS</small>
+              </div>
+            </div>
+            <div class="interest-item">
+              <i data-lucide="server"></i>
+              <div>
+                <strong>Backend &amp; APIs</strong>
+                <small>Node.js, REST API</small>
+              </div>
+            </div>
+            <div class="interest-item">
+              <i data-lucide="database"></i>
+              <div>
+                <strong>Databases</strong>
+                <small>PostgreSQL, MySQL</small>
+              </div>
+            </div>
+            <div class="interest-item">
+              <i data-lucide="puzzle"></i>
+              <div>
+                <strong>Problem Solving</strong>
+                <small>DSA, Algorithms</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â SKILLS Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â -->
+  <section id="skills" class="section skills">
+    <div class="container">
+      <h2 class="section-title reveal">Technical Skills</h2>
+      <p class="section-sub reveal">Technologies and tools I work with professionally</p>
+      <div class="skills-container">
+
+        <div class="skill-category reveal" id="skills-languages">
+          <h4><i data-lucide="code-2"></i> Programming Languages</h4>
+          <ul>
+            <li><span>Core Java</span></li>
+          </ul>
+        </div>
+
+        <div class="skill-category reveal" id="skills-web">
+          <h4><i data-lucide="layout-dashboard"></i> Web Technologies</h4>
+          <ul>
+            <li><span>HTML / CSS</span></li>
+            <li><span>JavaScript</span></li>
+            <li><span>React.js</span></li>
+          </ul>
+        </div>
+
+        <div class="skill-category reveal" id="skills-database">
+          <h4><i data-lucide="database"></i> Database</h4>
+          <ul>
+            <li><span>MySQL</span></li>
+            <li><span>PostgreSQL</span></li>
+          </ul>
+        </div>
+
+        <div class="skill-category reveal" id="skills-tools">
+          <h4><i data-lucide="wrench"></i> Tools &amp; Analytical</h4>
+          <ul>
+            <li><span>Excel</span></li>
+            <li><span>Git &amp; GitHub</span></li>
+            <li><span>VS Code</span></li>
+          </ul>
+        </div>
+
+        <div class="skill-category reveal" id="skills-additional">
+          <h4><i data-lucide="cpu"></i> Additional</h4>
+          <ul>
+            <li><span>Firebase</span></li>
+            <li><span>REST API Integration</span></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â PROJECTS Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â -->
+  <section id="projects" class="section projects">
+    <div class="container">
+      <h2 class="section-title reveal">Featured Projects</h2>
+      <p class="section-sub reveal">A curated selection of work that demonstrates my technical capability and problem-solving approach</p>
+
+      <div class="project-filters reveal" id="project-filters">
+        <button class="filter-btn active" data-filter="all" id="filter-all">All Projects</button>
+        <button class="filter-btn" data-filter="web" id="filter-web">Web</button>
+        <button class="filter-btn" data-filter="iot" id="filter-iot">IoT</button>
+        <button class="filter-btn" data-filter="app" id="filter-app">Application</button>
+      </div>
+
+      <div class="project-grid" id="project-list">
+        <!-- Dynamically rendered by main.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â EDUCATION Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â -->
+  <section id="education" class="section education">
+    <div class="container">
+      <h2 class="section-title reveal">Education</h2>
+      <p class="section-sub reveal">My academic journey and qualifications</p>
+
+      <div class="edu-timeline">
+
+        <div class="edu-timeline-item reveal" id="edu-1">
+          <div class="edu-timeline-connector">
+            <div class="edu-timeline-dot primary">
+              <i data-lucide="graduation-cap"></i>
+            </div>
+            <div class="edu-timeline-line"></div>
+          </div>
+          <div class="edu-timeline-card glass-card">
+            <div class="edu-card-header">
+              <div class="edu-card-title-group">
+                <span class="edu-level-badge be">Bachelor's Degree</span>
+                <h3 class="edu-card-title">B.E. Computer Science and Engineering</h3>
+                <p class="edu-institution">
+                  <i data-lucide="building-2"></i>
+                  Einstein College of Engineering, Anna University
+                </p>
+              </div>
+              <div class="edu-card-meta">
+                <span class="edu-year"><i data-lucide="calendar"></i> 2022 Ã¢â‚¬â€œ 2026</span>
+                <div class="edu-score-badge">
+                  <span class="score-label">CGPA</span>
+                  <span class="score-value">7.54</span>
+                </div>
+              </div>
+            </div>
+            <div class="edu-card-tags">
+              <span class="tag">Full Stack Development</span>
+              <span class="tag">Data Structures</span>
+              <span class="tag">Database Systems</span>
+              <span class="tag">Web Technologies</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="edu-timeline-item reveal" id="edu-2">
+          <div class="edu-timeline-connector">
+            <div class="edu-timeline-dot secondary">
+              <i data-lucide="book-open"></i>
+            </div>
+            <div class="edu-timeline-line"></div>
+          </div>
+          <div class="edu-timeline-card glass-card">
+            <div class="edu-card-header">
+              <div class="edu-card-title-group">
+                <span class="edu-level-badge hsc">Higher Secondary</span>
+                <h3 class="edu-card-title">Higher Secondary Certificate (HSC)</h3>
+                <p class="edu-institution">
+                  <i data-lucide="building-2"></i>
+                  Shalom Matriculation Higher Secondary School, State Board
+                </p>
+              </div>
+              <div class="edu-card-meta">
+                <span class="edu-year"><i data-lucide="calendar"></i> 2022</span>
+                <div class="edu-score-badge secondary">
+                  <span class="score-label">Score</span>
+                  <span class="score-value">72%</span>
+                </div>
+              </div>
+            </div>
+            <div class="edu-card-tags">
+              <span class="tag">Physics</span>
+              <span class="tag">Chemistry</span>
+              <span class="tag">Mathematics</span>
+              <span class="tag">Computer Science</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="edu-timeline-item reveal" id="edu-3">
+          <div class="edu-timeline-connector">
+            <div class="edu-timeline-dot tertiary">
+              <i data-lucide="school"></i>
+            </div>
+          </div>
+          <div class="edu-timeline-card glass-card">
+            <div class="edu-card-header">
+              <div class="edu-card-title-group">
+                <span class="edu-level-badge sslc">Secondary School</span>
+                <h3 class="edu-card-title">Secondary School Leaving Certificate (SSLC)</h3>
+                <p class="edu-institution">
+                  <i data-lucide="building-2"></i>
+                  Shalom Matriculation Higher Secondary School, State Board
+                </p>
+              </div>
+              <div class="edu-card-meta">
+                <span class="edu-year"><i data-lucide="calendar"></i> 2020</span>
+                <div class="edu-score-badge tertiary">
+                  <span class="score-label">Score</span>
+                  <span class="score-value">64%</span>
+                </div>
+              </div>
+            </div>
+            <div class="edu-card-tags">
+              <span class="tag">Science</span>
+              <span class="tag">Mathematics</span>
+              <span class="tag">English</span>
+              <span class="tag">Social Science</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â CONTACT Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â -->
+  <!-- Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â CONTACT Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <h2 class="section-title reveal">Get In Touch</h2>
+      <p class="section-sub reveal">I'm currently open to new opportunities. Whether you have a project, a job opening, or just want to connect Ã¢â‚¬â€ feel free to reach out.</p>
+
+      <div class="contact-grid">
+
+        <div class="contact-info reveal">
+          <h3>Let's Work Together</h3>
+          <p>I'm available for internship positions, full-time roles, and freelance projects in web development and software engineering.</p>
+
+          <div class="contact-items">
+            <a href="mailto:rahul.t@email.com" class="contact-item" id="contact-email">
+              <div class="contact-icon"><i data-lucide="mail"></i></div>
+              <div>
+                <strong>Email</strong>
+                <span>rahul.t@email.com</span>
+              </div>
+            </a>
+            <a href="tel:+919876543210" class="contact-item" id="contact-phone">
+              <div class="contact-icon"><i data-lucide="phone"></i></div>
+              <div>
+                <strong>Phone</strong>
+                <span>+91 98765 43210</span>
+              </div>
+            </a>
+            <a href="https://linkedin.com/in/rahul-t" target="_blank" class="contact-item" id="contact-linkedin">
+              <div class="contact-icon"><i data-lucide="linkedin"></i></div>
+              <div>
+                <strong>LinkedIn</strong>
+                <span>linkedin.com/in/rahul-t</span>
+              </div>
+            </a>
+            <a href="https://github.com/rahul-t" target="_blank" class="contact-item" id="contact-github">
+              <div class="contact-icon"><i data-lucide="github"></i></div>
+              <div>
+                <strong>GitHub</strong>
+                <span>github.com/rahul-t</span>
+              </div>
+            </a>
+            <div class="contact-item" id="contact-location">
+              <div class="contact-icon"><i data-lucide="map-pin"></i></div>
+              <div>
+                <strong>Location</strong>
+                <span>Tenkasi, Tamil Nadu, India</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-wrapper reveal-right">
+          <form class="contact-form" id="contact-form" novalidate>
+            <div class="form-group">
+              <label for="form-name">Full Name</label>
+              <input type="text" id="form-name" name="name" placeholder="Your full name" required />
+            </div>
+            <div class="form-group">
+              <label for="form-email">Email Address</label>
+              <input type="email" id="form-email" name="email" placeholder="your@email.com" required />
+            </div>
+            <div class="form-group">
+              <label for="form-subject">Subject</label>
+              <input type="text" id="form-subject" name="subject" placeholder="e.g. Internship Opportunity" />
+            </div>
+            <div class="form-group">
+              <label for="form-message">Message</label>
+              <textarea id="form-message" name="message" rows="5" placeholder="Tell me about the opportunity..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary form-submit" id="contact-submit">
+              Send Message <i data-lucide="send"></i>
+            </button>
+            <p class="form-success" id="form-success">Ã¢Å“â€œ Message sent! I'll get back to you soon.</p>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â FOOTER Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-left">
+        <div class="logo">RT<span>.</span></div>
+        <p>Building software that matters.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-socials">
+        <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn" id="footer-linkedin"><i data-lucide="linkedin"></i></a>
+        <a href="https://github.com" target="_blank" aria-label="GitHub" id="footer-github"><i data-lucide="github"></i></a>
+        <a href="mailto:rahul.t@email.com" aria-label="Email" id="footer-email"><i data-lucide="mail"></i></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Rahul T. Designed &amp; Built with precision.</p>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
