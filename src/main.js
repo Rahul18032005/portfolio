@@ -312,10 +312,10 @@ function uploadResume(file) {
 // ═══════════════════════════════════════════════════════
 function initSocialLinks() {
   applySocialLinks({
-    email: retrieve(SK.EMAIL) || 'rahul.t@email.com',
-    phone: retrieve(SK.PHONE) || '+91 98765 43210',
-    linkedin: retrieve(SK.LINKEDIN) || 'https://linkedin.com/in/rahul-t',
-    github: retrieve(SK.GITHUB) || 'https://github.com/rahul-t',
+    email: retrieve(SK.EMAIL) || 'rahul18032005@gmail.com',
+    phone: retrieve(SK.PHONE) || '+91 9361031944',
+    linkedin: retrieve(SK.LINKEDIN) || 'www.linkedin.com/in/rahul-t-ba35432a1',
+    github: retrieve(SK.GITHUB) || 'https://github.com/Rahul18032005',
   });
 }
 
